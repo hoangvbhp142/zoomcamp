@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
-from ingest_taxi_data import ingest_trip
-from ingest_zones_data import ingest_zone
+from pipeline.src.ingestion.ingest_taxi_data import ingest_trip
+from pipeline.src.ingestion.ingest_zones_data import ingest_zone
 import click
 
 @click.command()

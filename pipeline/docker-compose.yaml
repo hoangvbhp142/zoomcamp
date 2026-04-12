@@ -83,10 +83,10 @@ services:
       kestra_postgres:
         condition: service_started
 
-  ingest_data:
-    build: .
-    depends_on:
-      - pgdatabase
+  # ingest_data:
+  #   build: .
+  #   depends_on:
+  #     - pgdatabase
 
 volumes:
   ny_taxi_postgres_data:

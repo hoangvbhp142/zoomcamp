@@ -1,7 +1,7 @@
 import pandas as pd
 from tqdm.auto import tqdm
 
-from config_data import DATASET_CONFIG
+from config.config_data import DATASET_CONFIG
 
 def ingest_zone(engine):
 
